@@ -16,5 +16,18 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("from new2");
+        }
+
+            private void button1_Click(object sender, EventArgs e)
+            {
+                MessageBox.Show("from new1");
+
+            }
+        }
     }
-}
+
